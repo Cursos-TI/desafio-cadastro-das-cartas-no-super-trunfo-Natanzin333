@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-// Definição da estrutura CartaTrunfo
+// Variáveis
 struct CartaTrunfo {
     char estado[30];
     char codigo[20];
     char cidade[50];
     int populacao;
-    float areakm2;
+    float area;
     float pib;
     int pontos;
 };
@@ -30,7 +30,7 @@ int main() {
 
 
     printf("Digite a área em km² da carta 1: \n");
-    scanf("%f", &carta1.areakm2);
+    scanf("%f", &carta1.area);
 
 
     printf("Digite o PIB da carta 1: \n");
@@ -60,7 +60,7 @@ int main() {
     scanf("%d", &carta2.populacao);
 
     printf("Digite a área em km² da carta 2: ");
-    scanf("%f", &carta2.areakm2);
+    scanf("%f", &carta2.area);
 
     printf("Digite o PIB da carta 2: ");
     scanf("%f", &carta2.pib);
@@ -74,14 +74,14 @@ int main() {
     printf("=== Carta 1 ===\n");
     printf("Estado: %s - Código: %s\n", carta1.estado, carta1.codigo);
     printf("Cidade: %s - População: %d\n", carta1.cidade, carta1.populacao);
-    printf("Área em km²: %.2f - PIB: %.2f\n", carta1.areakm2, carta1.pib);
+    printf("Área em km²: %.2f - PIB: %.2f\n", carta1.area, carta1.pib);
     printf("Pontos turísticos: %d\n\n", carta1.pontos);
 
     // Exibindo os dados da segunda carta
     printf("=== Carta 2 ===\n");
     printf("Estado: %s - Código: %s\n", carta2.estado, carta2.codigo);
     printf("Cidade: %s - População: %d\n", carta2.cidade, carta2.populacao);
-    printf("Área em km²: %.2f - PIB: %.2f\n", carta2.areakm2, carta2.pib);
+    printf("Área em km²: %.2f - PIB: %.2f\n", carta2.area, carta2.pib);
     printf("Pontos turísticos: %d\n", carta2.pontos);
 
     return 0;
