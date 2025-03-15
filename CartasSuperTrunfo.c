@@ -47,25 +47,25 @@ int main() {
 
     // Segunda carta
 
-    printf("Digite o estado da carta 2: ");
+    printf("Digite o estado da carta 2: \n");
     scanf("%s", carta2.estado);
 
-    printf("Digite o código da carta 2: ");
+    printf("Digite o código da carta 2: \n");
     scanf("%s", carta2.codigo);
 
-    printf("Digite a cidade da carta 2: ");
+    printf("Digite a cidade da carta 2: \n");
     scanf("%s", carta2.cidade);
 
-    printf("Digite a população da carta 2: ");
+    printf("Digite a população da carta 2: \n");
     scanf("%d", &carta2.populacao);
 
-    printf("Digite a área em km² da carta 2: ");
+    printf("Digite a área em km² da carta 2: \n");
     scanf("%f", &carta2.area);
 
     printf("Digite o PIB da carta 2: ");
     scanf("%f", &carta2.pib);
 
-    printf("Digite os pontos turísticos da carta 2: ");
+    printf("Digite os pontos turísticos da carta 2: \n");
     scanf("%d", &carta2.pontos);
 
     printf("\n=== Cartas Digitadas ===\n");
