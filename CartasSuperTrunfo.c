@@ -13,16 +13,8 @@ struct CartaTrunfo {
     float pibpercapita;
     long double superpoder;
     float densidadeinversa;
-    float resultado;
-    //variaveis resultados
-    int resultadopopulacao;
-    int resultadoarea;
-    int resultadopib;
-    int resultadopontos;
-    int resultadodensidade;
-    int resultadopibpercapita;
-    int resultadosuperpoder;
-    int resultadodensidadeinversa;
+    
+    
     
 
 };
