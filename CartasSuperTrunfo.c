@@ -144,7 +144,7 @@ int main() {
     printf("Comparação dos Pontos Turisticos: %d\n", carta1.pontos > carta2.pontos);
     printf("Comparação da Densidade Populacional: %d\n", carta1.densidade > carta2.densidade);
     printf("Comparação do PIB Per Capita: %d\n", carta1.pibpercapita > carta2.pibpercapita);
-    printf("Comparação da Densidade Inversa: %d\n", carta1.densidadeinversa > carta2.densidadeinversa);
+    printf("Comparação da Densidade Inversa: %d\n", carta1.densidadeinversa < carta2.densidadeinversa);
     printf("Comparação do Super Poder: %d\n", carta1.superpoder > carta2.superpoder);
     
     
